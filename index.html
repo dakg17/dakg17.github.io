@@ -4,369 +4,235 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daksh Gautam's Portfolio</title>
-    <link rel = "stylesheet" href = "style.css"/>
-    <link rel = "stylesheet" href = "mediaqueries.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
 </head>
 <body>
-    <nav id = "desktop-nav">
-        <div class = "logo">Daksh Gautam</div>
+    <!-- Navigation -->
+    <nav id="desktop-nav">
+        <div class="logo">Daksh Gautam</div>
         <div>
-          <ul class = "nav-links">
-            <li><a href = "#about">About</a></li>
-            <li><a href = "#experience">Skills</a></li>
-            <li><a href = "#projects">Experiences + Projects</a></li>
-            <li><a href = "#contact">Contact</a></li>
-          </ul>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#projects">Experiences + Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     </nav>
-    <nav id = "hamburger-nav">
-    <div class = "logo">Daksh Gautam</div>
-    <div class = "hamburger-menu">
-        <div class = "menu-links">
-            <li><a href = "#about" onclick="toggleMenu()">About</a></li>
-            <li><a href = "#experience" onclick="toggleMenu()">Skills</a></li>
-            <li><a href = "#projects" onclick="toggleMenu()">Experiences + Projects</a></li>
-            <li><a href = "#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
+    <nav id="hamburger-nav">
+        <div class="logo">Daksh Gautam</div>
+        <div class="hamburger-menu">
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Experiences + Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
         </div>
     </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Profile Picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Daksh Gautam</h1>
-        <p class="section__text__p2">Sophomore Computer Science: Machine Learning Student at University of Maryland</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/DakshGautam_Resume (6).pdf')"
-          >
-            Download Resume
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/daksh-gautam-58b178286/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/dakg17/'"
-          />
-        </div>
-      </div>
-    </section>
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Skills</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title"></h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Java</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C++</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title"></h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Assembly</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>MATLAB</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>MySQL</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PHP</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Statistical Analysis</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Assistant Near Peer Mentor</h2>
-            <div class="btn-container">
-              <h3>1. Designed and taught lessons about aerodynamics, physics, binary code and coding to over 100 students                            </h3>
-            </div>
-            <div></div>
-            <div class="btn-container">
-              <h3>2. Assisted mentors with curriculum development</h3>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Intern</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://1drv.ms/p/c/83ff49a4374ceed3/EdPuTDekSf8ggINrAAAAAAABgGU1EU7nqouJoVkvTDpyKg'"
-              >
-                Presentation #1
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://onedrive.live.com/edit?id=83FF49A4374CEED3!s1a1bead017744c7d9c4e74c53ec645b7&resid=83FF49A4374CEED3!s1a1bead017744c7d9c4e74c53ec645b7&cid=83ff49a4374ceed3&ithint=file%2Cpptx&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3AvYy84M2ZmNDlhNDM3NGNlZWQzL0VkRHFHeHAwRjMxTW5FNTB4VDdHUmJjQnZNZVY5WGZ0U3lwbHdoU2xEakVyQUE_ZT1XazRTV3E&migratedtospo=true&wdo=2'"
-              >
-                Presentation #2
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Intern</h2>
-            <div class="btn-container">
-              <h3>1. Created a front-end interface to store data from experiment</h3>
-            </div>
-            <div class="btn-container">
-              <h3>2. Used different coding languages like mySQL, JavaScript, PHP, HTML & CSS</h3>
-            </div>
-          </div>
-        </div>
 
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-4.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Maryland State Lead and Key Volunteer </h2>
-            <div class="btn-container">
-              <h3>1. Help collect, ship, and campaign for the donation of used Indian party wear clothes for children in need in India</h3>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-5.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Paint </h2>
-            <div class="btn-container">
-              <h3>1. Created a basic version of Microsoft Paint on Java</h3>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-6.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Two Player Games</h2>
-            <div class="btn-container">
-              <h3>1. Created an interface in Java where users could choose to play two player games like battleship, tic tac toe, etc.  </h3>
-            </div>
-          </div>
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Profile Picture" />
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:dakshgautam817@gmail.com">Email Me</a></p>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Daksh Gautam</h1>
+            <p class="section__text__p2">Junior Computer Science Student with a Minor in General Business at University of Maryland</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/DakshGautam_OfficialCSResume.pdf')">
+                    Download Resume
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                     onclick="location.href='https://www.linkedin.com/in/daksh-gautam-58b178286/'" />
+                <img src="./assets/github.png" alt="My Github profile" class="icon"
+                     onclick="location.href='https://github.com/dakg17/'" />
+            </div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/daksh-gautam-58b178286/">LinkedIn</a></p>
-        </div>
-      </div>
     </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Skills</a></li>
-            <li><a href="#projects">Experience and Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+
+    <!-- Skills Section -->
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title"></h2>
+                    <div class="article-container">
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Java</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Python</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>HTML</h3><p>Intermediate</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>CSS</h3><p>Intermediate</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>JavaScript</h3><p>Intermediate</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>C++</h3><p>Experienced</p></div></article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title"></h2>
+                    <div class="article-container">
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>C</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Assembly</h3><p>Intermediate</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>MATLAB</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>MySQL</h3><p>Intermediate</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>PHP</h3><p>Intermediate</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Statistical Analysis</h3><p>Experienced</p></div></article>
+                    </div>
+                </div>
+            </div>
         </div>
-      </nav>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+
+    <!-- Experiences + Projects Section -->
+    <section id="projects">
+        <h1 class="title">Experiences + Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <!-- NIST Summer 2025 -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 1" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Summer Research Intern – NIST (2025)</h2>
+                    <div class="btn-container">
+                        <h3>1. Built an LLM-powered pipeline (Python, OpenAI, LLaMA) to extract methodologies from 1,000+ papers with 92% accuracy, reducing manual review time by 70% for 3,000 scientists</h3>
+                    </div>
+                    <div class="btn-container">
+                        <h3>2. Designed a scalable SQLite database indexing 10,000+ quotes, improving retrieval speed by 500%</h3>
+                    </div>
+                    <div class="btn-container">
+                        <h3>3. Currently authoring a paper to be published soon</h3>
+                    </div>
+                </div>
+
+                <!-- AEOP -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 2" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Assistant Near Peer Mentor</h2>
+                    <div class="btn-container">
+                        <h3>1. Delivered 15+ STEM lessons on aerodynamics, physics, and coding to 200+ students, achieving 95% participation</h3>
+                    </div>
+                    <div class="btn-container">
+                        <h3>2. Co-developed a modular STEM curriculum used in 7 sessions, increasing engagement by 25%</h3>
+                    </div>
+                </div>
+
+                <!-- NIST 2023–2024 -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 3" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Summer Research Intern – NIST (2023–2024)</h2>
+                    <div class="btn-container">
+                        <h3>1. Built a JavaScript visualization tool for nanoscale images, cutting analysis time by 50%</h3>
+                    </div>
+                    <div class="btn-container">
+                        <h3>2. Trained a deep learning segmentation model on 1,000+ images, improving accuracy by 35%</h3>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://1drv.ms/p/c/83ff49a4374ceed3/EdPuTDekSf8ggINrAAAAAAABgGU1EU7nqouJoVkvTDpyKg'">
+                            Presentation #1
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://onedrive.live.com/edit?id=83FF49A4374CEED3!s1a1bead017744c7d9c4e74c53ec645b7&resid=83FF49A4374CEED3!s1a1bead017744c7d9c4e74c53ec645b7'">
+                            Presentation #2
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-containers">
+                <!-- Dream Dresses -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-4.png" alt="Project 4" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Maryland State Lead – Dream Dresses</h2>
+                    <div class="btn-container">
+                        <h3>1. Organized donation and shipment of 1,500+ Indian outfits for children in need, increasing contributions by 40%</h3>
+                    </div>
+                </div>
+
+                <!-- Eyes of Expression -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-7.png" alt="Project 5" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Eyes of Expression (Bitcamp 2025)</h2>
+                    <div class="btn-container">
+                        <h3>1. Built an eye-tracking powered drawing app using JavaScript and MediaPipe, enabling hands-free digital art</h3>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://bitcamp2025.vercel.app'">Live Demo</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/dakg17/EyesOfExpression'">GitHub</button>
+                    </div>
+                </div>
+
+                <!-- Paint -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-5.png" alt="Project 6" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Paint</h2>
+                    <div class="btn-container">
+                        <h3>1. Created a basic version of Microsoft Paint in Java with drawing and shape tools</h3>
+                    </div>
+                </div>
+
+                <!-- Two Player Games -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-6.png" alt="Project 7" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Two Player Games</h2>
+                    <div class="btn-container">
+                        <h3>1. Developed an interface in Java where users can play Battleship, Tic Tac Toe, and other multiplayer games</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:dakshgautam817@gmail.com">Email Me</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/daksh-gautam-58b178286/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#projects">Experience and Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
